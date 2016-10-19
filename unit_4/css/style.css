@@ -14,13 +14,21 @@ h1 {
 	font-family: 'Roboto';
 	color: rgb(104,173,109);
 }
-img {
-	width: 500px;
+
+p, ul {
+	line-height: 1.5em;
 }
+
 ul {
     text-align: center;
     list-style-type: none;
 }
+
+img {
+	width: 500px;
+}
+
+
 #slogan {
 	font-style: italic;
 }
