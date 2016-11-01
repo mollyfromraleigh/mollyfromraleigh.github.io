@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background-color: rgb(250,248,236);
+	font-family: Helvetica;
+	text-align: center;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+
+h1 {
+	font-family: 'Roboto';
+	color: rgb(104,173,109);
+}
+
+p, ul {
+	font-family: 'Gentium Basic'; 
+	line-height: 1.5em;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+img {
+
+	width: 200px;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+.project {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#slogan {
+	font-style: italic;
+}
