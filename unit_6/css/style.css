@@ -22,7 +22,10 @@ nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
     padding: 20px;
-    display: inline;
+    display: inline-block;
+    text-decoration: none;
+  	color: #000000;
+  	width: 96.5%;
 }
 
 footer {
@@ -57,16 +60,34 @@ img {
 	width: 200px;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 .wrapper {
 	padding: 20px;
 }
 
 .project {
+	margin: auto;
 	background-color: #FF957E;
 	border: 1px black solid;
-    padding: 20px;
+    float:left;
+    width:30%;
 }
 
 #slogan {
 	font-style: italic;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+    margin: auto;
 }
