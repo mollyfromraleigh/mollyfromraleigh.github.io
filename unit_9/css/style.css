@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: Helvetica;
+	text-align: center;
+    font-size: 14px;
+}
+
+header {
+    padding: 1.5em;
+}
+
+nav {
+    padding: .75em;
+    display: inline-block;
+    text-decoration: none;
+  	color: #000000;
+  	width: 96.5%;
+}
+
+nav a {
+	color: inherit;
+	text-decoration: none;
+	padding: .8em;
+}
+
+footer {
+    padding: 1.5em;
+    font-size: .8em;
+}
+
+
+h1 {
+	font-family: 'Montserrat';
+	color: rgb(104,173,109);
+}
+
+h2 {
+  font-family: 'Montserrat';
+  float: left;
+}
+
+p, ul {
+	font-family: 'Lora'; 
+	line-height: 1.5em;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+
+	width: 100%;
+}
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.wrapper {
+	padding: 1.4em;
+}
+
+.project {
+	margin: auto;
+	display: inline-block;
+  /* width: 30%;*/
+    padding: .7em;
+    font-size: 1em;
+}
+
+.project a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+    padding: .7em;
+}
+
+#two_column {
+    font-family: 'Lora';
+    font-size: 1em;
+    width: 80%;
+    padding: 1.4em;
+    margin: auto;
+    text-align: center;
+    -moz-column-count:3;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count:3;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;
+}
+
+.project_description {
+    width: 80%;
+    margin: auto;
+    float: right;
+}
+
+.project_detail {
+    width: 80%;
+    margin: auto;
+}
+
+.project_detail img {
+  padding: 1em;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #two_column {
+     -moz-column-count:1;
+     -webkit-column-count: 1;
+     column-count: 1;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+
+  nav a {
+    padding: 1.5em;
+  }
+
+}
+
+
+
